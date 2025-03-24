@@ -51,6 +51,45 @@ body {
   gap: 50px;
 }
 
+h2 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.shelter {
+  display: flex;
+  justify-content: space-around;
+}
+.shelter .card {
+  width: 30%;
+}
+.shelter .card .card-img-top {
+  max-height: 350px;
+}
+.shelter .card a {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/*CONTACT*/
+#contact h2 {
+  text-align: center;
+}
+#contact p {
+  text-align: center;
+  margin-bottom: 5%;
+}
+#contact .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact .contact .mb-3 {
+  width: 70%;
+}
+
 /*RESPONSIVE*/
 @media screen and (max-width: 768px) {
   .logo {
