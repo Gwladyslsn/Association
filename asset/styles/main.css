@@ -11,28 +11,23 @@
 body {
   background-color: bisque;
 }
-
-.container-fluid {
-  display: flex;
-  flex-wrap: nowrap !important;
+body .navbar {
+  background-color: bisque;
 }
-.container-fluid .logo {
+body .navbar .logo {
   border-radius: 50%;
   width: 30%;
 }
-.container-fluid .navbar {
-  background-color: bisque !important;
+body .navbar .navbar-collapse {
+  width: 100%;
 }
-.container-fluid .navbar-collapse {
-  width: 200%;
+body .navbar .navbar-collapse .navbar-nav {
+  gap: 8rem;
 }
-.container-fluid .navbar-collapse .navbar-nav {
-  gap: 5px;
-}
-.container-fluid .navbar-collapse .navbar-nav a {
+body .navbar .navbar-collapse .navbar-nav .nav-item {
   font-size: large;
 }
-.container-fluid .navbar-collapse .navbar-nav a a:hover {
+body .navbar .navbar-collapse .navbar-nav .nav-item a:hover {
   text-decoration: underline;
 }
 
@@ -61,13 +56,10 @@ h2 {
   display: flex;
   justify-content: space-around;
 }
-.shelter .card {
-  width: 30%;
-}
-.shelter .card .card-img-top {
+.shelter .card-img-top {
   max-height: 350px;
 }
-.shelter .card a {
+.shelter a {
   display: flex;
   width: 50%;
   margin: 0 auto;
@@ -101,6 +93,11 @@ h2 {
     max-width: 20%;
   }
 }
+@media screen and (min-width: 1024px) {
+  .logo {
+    max-width: 40%;
+  }
+}
 @media screen and (min-width: 1440px) {
   body {
     width: 50%;
@@ -108,9 +105,5 @@ h2 {
   }
   .logo {
     max-width: 30%;
-  }
-  .w-100 {
-    max-height: 1000px;
-    margin-bottom: 5%;
   }
 }/*# sourceMappingURL=main.css.map */

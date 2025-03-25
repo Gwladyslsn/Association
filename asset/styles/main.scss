@@ -12,43 +12,41 @@
 
 body{
     background-color:bisque;
-}
 
-
-    .container-fluid{
-        display:flex;
-        flex-wrap: nowrap!important;
+    .navbar{
+        background-color:bisque;
 
         .logo{
             border-radius: 50%;
             width:30%;
         }
 
-        .navbar{
-            background-color:bisque!important;
-        }
         .navbar-collapse{
-            width:200%;
-            
-        
-        .navbar-nav{
-            gap:5px;
-        
-            a{
-                font-size: large;
+            width:100%;
 
-                & a:hover{
-                    text-decoration:underline;
+            .navbar-nav{
+                gap:8rem;
+                        
+                    .nav-item{
+                        font-size: large;
+        
+                        & a:hover{
+                            text-decoration:underline;
+                        }
+                    }
                 }
-            }
+        }
+        
         }
     }
-    }
 
-    .w-100{
-        max-height:400px;
-        margin-bottom:5%;
-    }
+        .w-100{
+            max-height:400px;
+            margin-bottom:5%;
+        }
+    
+
+    
 
     /*MAIN*/
 
@@ -70,9 +68,6 @@ body{
         display:flex;
         justify-content:space-around;
 
-        .card{
-            width:30%;
-
             .card-img-top{
                 max-height:350px;
             }
@@ -83,7 +78,7 @@ body{
                 margin:0 auto;
             }
         }
-    }
+    
 
 
     /*CONTACT*/
@@ -113,6 +108,7 @@ body{
 
 
 
+
     /*RESPONSIVE*/
     @media screen and (max-width:768px){
         .logo{
@@ -123,6 +119,11 @@ body{
             .logo{
                 max-width:20%;
             }}
+
+            @media screen and (min-width:1024px){
+                .logo{
+                    max-width:40%;
+                }}
     
     
         @media screen and (min-width:1440px){
@@ -134,8 +135,5 @@ body{
             .logo{
                 max-width:30%;
             }
-            .w-100{
-                max-height:1000px;
-                margin-bottom:5%;
-            }
+
         }
