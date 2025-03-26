@@ -11,7 +11,7 @@
 /*HEADER*/
 
 body{
-    background-color:bisque;
+    background-color:#ffe4c4;
 
     .navbar{
         background-color:bisque;
@@ -104,15 +104,10 @@ body{
         }}
     }
 
-
-
-
-
-
     /*RESPONSIVE*/
     @media screen and (max-width:767px){
         .logo{
-            max-width:20%;
+            max-width:30%;
         }}
 
         @media screen and (min-width:768px){
@@ -133,7 +128,7 @@ body{
                 margin:auto;
             }
             .logo{
-                max-width:30%;
+                width:50%;
             }
 
         }

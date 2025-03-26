@@ -16,3 +16,13 @@ présentation (qui, ou, pourquoi, image etc etc)
 // penser aux metadonnée / metaOG
 // Responsive
 // copyright
+
+
+--------------
+26/03/25
+
+- Revoir respponsive et taille des card page accueil 
+- ajouter texte evenements + contact
+- ajouter encart pour faire un don (quelle page??)
+-faire en sorte que le formulaire se vide une fois avoir appuyer sur envoyer
+- ajouter lien mentions legales dans footer
