@@ -21,8 +21,19 @@ présentation (qui, ou, pourquoi, image etc etc)
 --------------
 26/03/25
 
-- Revoir respponsive et taille des card page accueil 
+- Revoir responsive et taille des card page accueil : [fait]
 - ajouter texte evenements + contact
 - ajouter encart pour faire un don (quelle page??)
 -faire en sorte que le formulaire se vide une fois avoir appuyer sur envoyer
 - ajouter lien mentions legales dans footer
+
+----------
+27/03/25
+
+- modifier layout sur grand ecran 
+- ajouter photo dans la page events
+- ajouter texte evenements + contact
+- ajouter encart pour faire un don (quelle page??)
+- faire en sorte que le formulaire se vide une fois avoir appuyer sur envoyer
+- ajouter lien mentions legales dans footer
+

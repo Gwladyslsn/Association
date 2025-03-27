@@ -18,22 +18,14 @@ body .navbar .logo {
   border-radius: 50%;
   width: 30%;
 }
-body .navbar .navbar-collapse {
-  width: 100%;
-}
-body .navbar .navbar-collapse .navbar-nav {
+body .navbar .navbar-nav {
   gap: 8rem;
 }
-body .navbar .navbar-collapse .navbar-nav .nav-item {
+body .navbar .navbar-nav .nav-item {
   font-size: large;
 }
-body .navbar .navbar-collapse .navbar-nav .nav-item a:hover {
+body .navbar .navbar-nav .nav-item a:hover {
   text-decoration: underline;
-}
-
-.w-100 {
-  max-height: 400px;
-  margin-bottom: 5%;
 }
 
 /*MAIN*/
@@ -52,20 +44,20 @@ h2 {
   text-align: center;
 }
 
-.shelter {
-  display: flex;
-  justify-content: space-around;
-}
-.shelter .card-img-top {
+.card-img-top {
   max-height: 350px;
 }
-.shelter a {
+
+a {
   display: flex;
   width: 50%;
   margin: 0 auto;
 }
 
 /*CONTACT*/
+#contact {
+  /*RESPONSIVE*/
+}
 #contact h2 {
   text-align: center;
 }
@@ -78,43 +70,37 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
-#contact .contact .mb-3 {
-  width: 70%;
-}
-
-/*RESPONSIVE*/
 @media screen and (max-width: 767px) {
-  .logo {
+  #contact .logo {
     max-width: 30%;
   }
 }
 @media screen and (min-width: 768px) {
-  .logo {
+  #contact .logo {
     max-width: 45%;
   }
 }
 @media screen and (min-width: 1024px) {
-  .logo {
+  #contact .logo {
     max-width: 50%;
   }
 }
 @media screen and (min-width: 1440px) {
-  body {
+  #contact body {
     width: 60%;
     margin: auto;
   }
-  .logo {
+  #contact .logo {
     width: 50%;
   }
 }
+
 /*.container-event{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
 }*/
-.card {
-  /*width: 400px;
-  height: 400px;*/
+.card-events {
   border-radius: 20px;
   background: #f5f5f5;
   position: relative;
