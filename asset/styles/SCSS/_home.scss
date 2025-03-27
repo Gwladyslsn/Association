@@ -21,7 +21,6 @@ body{
             width:30%;
         }
 
-
             .navbar-nav{
                 gap:8rem;
                         
@@ -35,11 +34,6 @@ body{
                 }
         }
         
-        }
-
-    
-
-    
 
     /*MAIN*/
 
@@ -58,16 +52,12 @@ body{
         text-align:center;
     }
 
-
-            .card-img-top{
-                max-height:350px;
-            }
-
-            a{
-                display:flex;
-                width:50%;
-                margin:0 auto;
-            }
+    /*shelter*/
+    #shelter{
+        .card{
+            width:30%;
+        }
+    }
     
 
 
@@ -88,8 +78,21 @@ body{
         display:flex;
         flex-direction:column;
         align-items:center;
+    }}
+
+
+
+
+    /*FOOTER*/
+
+    .bi-instagram{
+        width:10%;
+
     }
 
+    .bi-facebook{
+        width:10%;
+    }
     /*RESPONSIVE*/
     @media screen and (max-width:767px){
         .logo{
