@@ -17,23 +17,31 @@ présentation (qui, ou, pourquoi, image etc etc)
 // Responsive
 // copyright
 
-
---------------
-26/03/25
-
-- Revoir responsive et taille des card page accueil : [fait]
-- ajouter texte evenements + contact
-- ajouter encart pour faire un don (quelle page??)
--faire en sorte que le formulaire se vide une fois avoir appuyer sur envoyer
-- ajouter lien mentions legales dans footer
-
-----------
-27/03/25
-
+-----------------
+prochaine modif : 
+- Changer taille du commentaire dans la partie contact
+- faire mentions légales 
 - modifier layout sur grand ecran 
-- ajouter photo dans la page events
-- ajouter texte evenements + contact
-- ajouter encart pour faire un don (quelle page??)
+- ajouter photo dans la page events : (photo d'ancien evenements?)
 - faire en sorte que le formulaire se vide une fois avoir appuyer sur envoyer
-- ajouter lien mentions legales dans footer
+- metadonnée / metaOG
+
+
+-------------------------
+[FAIT]
+26/03/25
+- Revoir responsive et taille des card page accueil : [fait]
+- début structure page evenements : [fait]
+
+27/03/25
+- ajouter texte evenements + contact : [fait]
+- ajouter lien mentions legales dans footer : [fait]
+- changer le bouton "nous contacter" dans la partie SHELTER de la page home par un bouton "en savoir plus" qui renvoie sur la page "adopter un akita" : [fait]
+----------
+[à faire en bonus]
+- ajouter encart pour faire un don (quelle page??)
+
+
+
+
 
