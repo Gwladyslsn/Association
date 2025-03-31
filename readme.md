@@ -19,12 +19,8 @@ présentation (qui, ou, pourquoi, image etc etc)
 
 -----------------
 prochaine modif : 
-- Changer taille du commentaire dans la partie contact
-- faire mentions légales 
-- modifier layout sur grand ecran 
-- ajouter photo dans la page events : (photo d'ancien evenements?)
-- faire en sorte que le formulaire se vide une fois avoir appuyer sur envoyer
-- metadonnée / metaOG
+
+- ajouter encart pour faire un don (quelle page??)
 
 
 -------------------------
@@ -37,9 +33,11 @@ prochaine modif :
 - ajouter texte evenements + contact : [fait]
 - ajouter lien mentions legales dans footer : [fait]
 - changer le bouton "nous contacter" dans la partie SHELTER de la page home par un bouton "en savoir plus" qui renvoie sur la page "adopter un akita" : [fait]
+- Changer taille du commentaire dans la partie contact : [fait]
+- faire mentions légales : [fait]
+- ajouter photo dans la page events : (photo d'ancien evenements?) : [fait]
 ----------
-[à faire en bonus]
-- ajouter encart pour faire un don (quelle page??)
+
 
 
 

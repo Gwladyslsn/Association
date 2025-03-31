@@ -41,7 +41,7 @@ body .pitch {
   gap: 50px;
 }
 body h2 {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 5%;
   text-align: center;
 }
@@ -50,6 +50,14 @@ body #shelter .card-img-top {
   height: 75%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+body .btn-primary {
+  background-color: #fdc47e;
+  border-color: #fdc47e;
+}
+body .btn-primary:hover {
+  background-color: #f5746f;
+  border-color: #f5746f;
 }
 body #contact h2 {
   text-align: center;
@@ -148,6 +156,11 @@ body .bi-facebook {
 .card:hover .card-button {
   transform: translate(-50%, 50%);
   opacity: 1;
+}
+
+.card-button:hover {
+  background-color: #f5746f;
+  border-color: #f5746f;
 }
 
 .carousel-inner {
