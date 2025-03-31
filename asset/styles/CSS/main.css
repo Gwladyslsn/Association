@@ -45,8 +45,11 @@ body h2 {
   margin-bottom: 5%;
   text-align: center;
 }
-body #shelter .card {
-  width: 30%;
+body #shelter .card-img-top {
+  width: 100%;
+  height: 75%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 body #contact h2 {
   text-align: center;
@@ -145,6 +148,10 @@ body .bi-facebook {
 .card:hover .card-button {
   transform: translate(-50%, 50%);
   opacity: 1;
+}
+
+.carousel-inner {
+  max-height: 75vh;
 }
 
 :root,
